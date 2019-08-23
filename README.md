@@ -2,6 +2,8 @@
 
 [demo](https://tltary.github.io/ch_view/index.html)
 
+### IMPORTANT: Checking the first hit of an element in the viewport
+
 copy ch_view.js file in you site, or copy this code
 
 ``` js
