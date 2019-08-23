@@ -1,10 +1,3 @@
-# JavaScript viewport checker
-
-[demo](https://tltary.github.io/ch_view/index.html)
-
-copy ch_view.js file in you site, or copy this code
-
-``` js
 const chView = (i) => {
     const isInViewport = (elem) => {
         let bounding = elem.getBoundingClientRect();
@@ -29,9 +22,6 @@ const chView = (i) => {
         }
     }, true);
 }
-```
 
-and use like
-``` js
-chView('<your-element>');
-```
+chView('.js-view');
+chView('.js-view-new');
